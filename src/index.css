@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to bottom, #ba6ac3, #566faa, #274951);
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.tableFixHead {
+  overflow: auto;
+  height: 175px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(222, 226, 230);
+}
+
+/* Just common table stuff. Really. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px 16px;
+}
+th {
+  background: #eee;
+}
+
+.infoLabel {
+  float: left;
+  color: #4e4f57;
+  font-size: 14px;
+  margin: 3px 0;
+  font-weight: 400;
+}
